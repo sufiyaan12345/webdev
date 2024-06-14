@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: rgb(126, 63, 63);
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    background-color: #d19ef5;
+    color: rgb(19, 17, 17);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(136, 127, 127);
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #da3b8a;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #c4aaaa;
+    color: rgb(129, 8, 8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2db85b;
+    color: rgb(150, 46, 46);
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    color: rgb(240, 235, 235);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(143, 55, 55);
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #0cb80c;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Specific Styles */
+header {
+    background-color: #8000db;
+}
+
+footer {
+    text-align: bottom;
+    background-color: #d7bee986;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles for Product Details */
+.product h3 {
+    text-align: center;
+}
+
+.product p {
+    text-align: center;}
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    input[type="submit"] {
+        background-color: #6a0dad;
+        color: rgb(65, 63, 63);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #22a3a3;
+    }
